@@ -1,0 +1,81 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://wallpaperxyz.com/wp-content/uploads/Gif-Animated-Wallpaper-Background-Full-HD-Free-Download-for-PC-Macbook-261121-Wallpaperxyz.com-31.gif');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	font-family: sans-serif;
+}
+
+a {
+	display: block;
+	background: #00A9D4;
+	color: #fff;
+	padding: 15px;
+	cursor: pointer;
+	text-decoration: none;
+	width: 320px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: monospace;
+
+	
+}
+a:hover {
+	background: #00729D;
+}
+.btn-2 {
+	background: #e49f51;
+}
+
+.btn-2:hover {
+	background: #e27419;
+}
+
+.btn-3 {
+	background: #df6859;
+}
+
+.btn-3:hover {
+	background: #b40202;
+}
+
+.btn-4 {
+	background: #81c549;
+}
+
+.btn-4:hover {
+	background: #018d40;
+}
+
+.btn-5 {
+	background: #874fc7;
+}
+
+.btn-5:hover {
+	background: #3db48c;
+}
+
+
+p {
+	align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+	color: #75f1bee3;
+	padding: 10px;
+	font-family:cursive;
+}
+

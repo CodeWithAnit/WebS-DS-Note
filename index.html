@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DS 2nd Sem Notes</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+
+
+	
+    <p>Unit 1</p>
+    <a href="DS-Unit1.pdf" class="btn-1" download="DS Unit 1">
+		Download
+	</a>
+	
+    <p>Unit 2</p>
+	<a href="DS-Unit2.pdf" class="btn-2" download="DS Unit 2">
+		Download
+	</a>
+
+    <p>Unit 3</p>
+	<a href="DS-Unit3.pdf" class="btn-3" download="DS Unit 3">
+		Download
+	</a>
+
+    <p>Unit 4</p>
+	<a href="DS-Unit4.pdf" class="btn-4" download="DS Unit 4">
+		Download
+	</a>
+
+    <p>Unit 5</p>
+	<a href="DS-Unit5.pdf" class="btn-5" download="DS Unit 5">
+		Download
+	</a>
+
+    <p>Unit 6</p>
+	<a href="DS-Unit6.pdf" class="btn-6" download="DS Unit 6">
+		Download
+	</a>
+
+<script>
+    window.addEventListener("DOMNodeInserted", function(event){
+    if(event.target.localName=="iframe"){
+      event.target.addEventListener("load", function(event2){
+         // HERE YOU GO.
+         event.target.contentDocument.querySelector("img[alt*='www.000webhost.com']").style.cssText = "display: none;";
+      });
+    }
+});
+</script>
+
+</body>
+</html>
